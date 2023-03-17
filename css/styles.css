@@ -1,7 +1,7 @@
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 20px 10px;
+  background-color: #ca9f10;
+  padding: 10px 10px;
 }
 
 /* Style the header links */
@@ -9,14 +9,14 @@
   float: left;
   color: black;
   text-align: center;
-  padding: 12px;
+  padding: 10px;
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
 }
 
-/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+/* Style the logo link  */
 .header a.logo {
   font-size: 25px;
   font-weight: bold;
@@ -30,7 +30,7 @@
 
 /* Style the active/current link*/
 .header a.active {
-  background-color: dodgerblue;
+  background-color: rgb(117, 89, 3);
   color: white;
 }
 
@@ -58,8 +58,8 @@ body, html {
 
 /* The hero image */
 .hero-image {
-/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images\christina_serra_shire_header_image.jpg");
+/* Use "linear-gradient" to add a darken background effect to the image */
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("christina_serra_shire_header_image.jpg");
 
 /* Set a specific height */
 height: 50%;
@@ -78,16 +78,16 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-color: white;
+color: rgb(255, 255, 255);
 }
 
 body {
   font-family: 'Alice', serif;
   font-family: 'Arima Madurai', cursive;
+  background-color: rgb(0, 54, 50);
 }
 
 h1 {
-  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
   font-size: 3em;
   line-height: 1.5;
 }
@@ -103,7 +103,52 @@ svg path {
   fill: red;
 }
 
-.purple {
-  color: rgb(62, 8, 62);
+
+
+/* For Gallery pages*/
+div.gallery {
+  border: 1px solid #ccc;
 }
 
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
