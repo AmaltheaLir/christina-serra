@@ -1,0 +1,24 @@
+Main/Home:
+*working on footer and icons
+need to make the main page body elements
+Need background image art - petrol color with 'gold' line designs, help draw the eye through the elements in the page
+Elements are displayed in frames, are links, have basic copy descr. paragraph
+
+
+Gallery pages:
+Simple header
+Gallery layout
+Click image
+On click, bigger, scroll through or exit
+
+Shop Page:
+Link to FAA shop
+
+About:
+Quote
+Photo
+Bio
+
+Contact:
+Email sender
+SM links
