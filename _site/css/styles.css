@@ -10,7 +10,7 @@ body, html {
 .header {
   overflow: hidden;
   background-color: #ca9f10;
-  padding: 10px 10px;
+  padding: 5x 5px;
 }
 
 /* Style the header links */
@@ -18,14 +18,15 @@ body, html {
   float: left;
   color: black;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
   text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
+  font-size: 20px;
+  line-height: 10px;
+  border-radius: 7px;
 }
 
 /* Style the logo link  */
+
 .header a.logo {
  float: left;
 }
