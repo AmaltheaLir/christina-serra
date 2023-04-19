@@ -1,11 +1,12 @@
 |DO| LAYOUTs and md 
+started layouts... and includes. CHAOS o/O
 
 
 Main/Home:
 *working on footer and icons
 need to make the main page body elements
 Need background image art - petrol color with 'gold' line designs, help draw the eye through the elements in the page
-Elements are displayed in frames, are links, have basic copy descr. paragraph
+Elements are displayed in curly bracket frames, are links, have basic copy descr. paragraph
 
 
 Gallery pages:
