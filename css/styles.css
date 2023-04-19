@@ -5,6 +5,7 @@ body, html {
   font-family: 'Alice', serif;
   font-family: 'Arima Madurai', cursive;
   background-color: rgb(0, 54, 50);
+  color: antiquewhite;
 }
 
 .header {
@@ -64,7 +65,7 @@ body, html {
 /* The hero image */
 .hero-image {
 /* Use "linear-gradient" to add a darken background effect to the image */
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("christina_serra_shire_header_image.jpg");
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/christina_serra_shire_header_image.jpg");
 
 /* Set a specific height */
 height: 50%;
@@ -97,9 +98,6 @@ color: rgb(255, 255, 255);
 
 
 /* For Gallery pages*/
-div.gallery {
-  border: 1px solid #ccc;
-}
 
 div.gallery:hover {
   border: 1px solid #777;
