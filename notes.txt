@@ -1,10 +1,14 @@
 |DO| 
 -sticky navbar https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
+-Fix the spacing in the stupid navbar
 -work on gallery page layout (start with Paintings, copy content for the other galleries)
 -design page About
 -design page Shop - link to actual shop evtl. 
 -design page Contact - need contact formmmmmm ye gods howwww
--choose Images. use https://compressor.io/ to help compress them. How to organise images? 
+-choose Images 
+  -use https://compressor.io/ to help compress them. How to organise    images? They look too good. Make them look crappier. 
+  -watermark the images!!
+  -make a clipping mask cut, whatever, for the Home image links, shapes
 -?? how to click image -> enlarge, > through show images?
 -learn about the Sass css organising, variable system. See Hana's : https://github.com/hharen/mltc_jekyll/tree/master/css  main.scss has the variables and links in from the organised css files.  See organised in _sass/cmponents https://github.com/hharen/mltc_jekyll/tree/master/_sass/components 
 
