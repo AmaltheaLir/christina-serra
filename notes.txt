@@ -1,6 +1,7 @@
 |DO| 
 -sticky navbar https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
 -Fix the spacing in the stupid navbar
+-HEADER make heading text responsive! 
 -work on gallery page layout (start with Paintings, copy content for the other galleries)
 -design page About
 -design page Shop - link to actual shop evtl. 

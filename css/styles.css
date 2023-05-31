@@ -1,4 +1,49 @@
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+/* clearfix */
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  height: 75px;
+  margin-bottom: 0 !important;
+  max-width: 350px;
+  padding: 35px 0 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding: 35px 0;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+
+
+
 
 body, html {
   height: 100%;
@@ -19,7 +64,7 @@ h1 {
 .navigation {
   overflow: hidden;
   background-color: #cb9f10;
-  padding: 5x 5px;
+  padding: 5px 5px;
 }
 
 /* Style the navigation links */
@@ -72,28 +117,28 @@ h1 {
 
 /* The hero image */
 .hero-image {
-/* Use "linear-gradient" to add a darken background effect to the image */
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/christina_serra_shire_header_image.jpg");
+  /* Use "linear-gradient" to add a darken background effect to the image */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/christina_serra_shire_header_image.jpg");
 
-/* Set a specific height */
-height: 50%;
+  /* Set a specific height */
+  height: 50%;
 
-/* Position and center the image to scale nicely on all screens */
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 /* Place text in the middle of the image */
 .hero-text {
-text-align: center;
-position: absolute;
-font-size: 50px;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-color: rgb(255, 255, 255);
+  text-align: center;
+  position: absolute;
+  font-size: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
 }
 
 
