@@ -40,3 +40,9 @@ Bio
 Contact:
 Email sender
 SM links
+
+
+
+
+## Fonts- tried to use a non google api, but did not connect reliably
+  "https://api.fonts.coollabs.io/css2?family=Alice&family=Arima+Madurai:wght@300;700&display=swap" rel="stylesheet"
